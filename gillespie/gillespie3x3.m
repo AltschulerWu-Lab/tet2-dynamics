@@ -31,7 +31,7 @@ function [tplot, splot, dplot, nplot] = gillespie3x3 ( cell_line, conc, s_0, d_0
         d_S = 0; %0.75;
         g_S = 0.85;
         r_SD = 0.59;
-        d_D = 0; %0.64;
+        d_D = 0.64;
         r_DS = 0.00;
         g_D = 0.38;
     elseif cell_line == "KG1T" && conc == "0"
@@ -47,7 +47,7 @@ function [tplot, splot, dplot, nplot] = gillespie3x3 ( cell_line, conc, s_0, d_0
         d_S = 0; %0.77;
         g_S = 0.80;
         r_SD = 0.13;
-        d_D = 0; %0.65;
+        d_D = 0.65;
         r_DS = 0.05;
         g_D = 0.38;
     end
