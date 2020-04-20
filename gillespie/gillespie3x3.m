@@ -28,7 +28,7 @@ function [tplot, splot, dplot, nplot] = gillespie3x3 ( cell_line, conc, s_0, d_0
         g_D = 0.37;
     elseif cell_line == "KG1" && conc == "1"
         % rates KG1WT 1uM
-        d_S = 0; %0.75;
+        d_S = 0.75;
         g_S = 0.85;
         r_SD = 0.59;
         d_D = 0.64;
@@ -44,7 +44,7 @@ function [tplot, splot, dplot, nplot] = gillespie3x3 ( cell_line, conc, s_0, d_0
         g_D = 0.76;
     elseif cell_line == "KG1T" && conc == "1"
         % rates KG1KO 1uM
-        d_S = 0; %0.77;
+        d_S = 0.77;
         g_S = 0.80;
         r_SD = 0.13;
         d_D = 0.65;
